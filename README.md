@@ -23,7 +23,7 @@ First you need permission to use this program. you need to send mail to support@
 * [https://github.com/Bahaa-Fadhil/Ten-Countries-Project](https://github.com/Bahaa-Fadhil/Ten-Countries-Project)
 
 ### Demo
-* [https://www.bahaa.no/projects/](https://www.bahaa.no/projects/)
+* [https://www.bahaa.no/demo/themes/10land/hjem.html](https://www.bahaa.no/projects/)
 
 
 ### Data Sources
