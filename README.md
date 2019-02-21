@@ -16,7 +16,7 @@ First you need permission to use this program. you need to send mail to support@
 
 * The application must be started from home.php because the function that merges the xml files is executed in this file.
 
-Applications including a XML, XSL, PHP & CSS file. Get startet by clone or download project. 
+* Applications including a XML, XSL, PHP & CSS file. Get startet by clone or download project. 
 
 
 ### Git
