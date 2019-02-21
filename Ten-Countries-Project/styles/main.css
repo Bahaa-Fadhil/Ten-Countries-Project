@@ -1,0 +1,651 @@
+@charset "utf-8";
+* {padding:0px; margin:0px; }
+html {
+    box-sizing:border-box;
+}
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	color: #3d3826;
+    font-family: 'Roboto', sans-serif;
+	background-color: #fff;
+
+}
+table {border-collapse:collapse;/*width:600px;*/}
+  table, td, th {padding: 10px; border:3px gray solid;}
+td,th{
+    padding: 10px;
+}
+a {
+	text-decoration: none;
+	font-size: 16px;
+    color: #3d3826;
+}
+
+
+/* responsiv side nav */
+
+aside {
+	position:absolute;
+	width:250px;
+	
+}
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    left: 0px;
+    background-color: #34445B;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 52px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #B1B1B1;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+
+/* her er admin sider meny */
+
+
+.hytter{
+    margin:5% 1%;
+    margin-top: 80px;
+}
+
+
+/* Google Map Responsiv og No-Scroll */
+/* Steffen 06.03.2017 */
+.map {
+	width:100%;
+	height:100%;	
+}
+
+.map-wrap {
+	position: fixed;
+    height: 100%;
+    width: 66.66667%
+}
+	
+.overlay-map {
+	width:100%;
+	min-height:400px; 
+	position:absolute; 
+	top:0;
+}
+
+
+
+.images {
+    width: 100%;
+    height: 100%;
+	max-height: 600px;
+	max-width: 800px;
+	-webkit-transition: all 2s ease; /* Safari and Chrome */
+    -moz-transition: all 2s ease; /* Firefox */
+    -ms-transition: all 2s ease; /* IE 9 */
+    -o-transition: all 2s ease; /* Opera */
+    transition: all 2s ease;
+}
+
+
+.container:hover .images:before, .container:focus .images:before {
+    display: block;
+}
+.images:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52,73,94,0.75);
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.container:hover img{
+    -webkit-transform:scale(1.15); /* Safari and Chrome */
+    -moz-transform:scale(1.15); /* Firefox */
+    -ms-transform:scale(1.15); /* IE 9 */
+    -o-transform:scale(1.15); /* Opera */
+     transform:scale(1.15);
+}
+
+
+/* CSS for grid */
+.row1 {
+	background-color:#34445B;
+}
+.row {
+	/*background-color:##252325;*/
+}
+
+.row2 {
+	background-color:#fff;
+	padding-right: 9%;
+    padding-left: 9%;
+}
+.row3 {
+	background-image:url(../images/technology-forsidebilde.jpg);
+	background-repeat:no-repeat;
+}
+
+.background-img{
+	background: url(../Bilder/Kontakt/sol-oppe-take-nede-1-gråovarlay.jpg) center no-repeat;
+    width: 100%;
+    max-height: 1000px;
+    height: 900px;
+    position: relative;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 70%;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+	
+}
+.side{
+    margin-left: 250px;
+}
+.grid {
+    width: 100%;
+    /*max-width: 1100px;*/
+	margin-top:0px;
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.topp{
+    margin-top: 39px;
+}
+.top{
+	margin-top:64px;
+}
+.info{
+    margin-top: 40px;
+}
+.infotekst{
+    padding: 2px 30px 2px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #366568;
+}
+p.infotekst{
+    padding: 0px 30px 10px 30px;
+}
+
+p.infotekst-linje{
+    padding: 0px 0px 10px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #366568;
+    display:inline-block;
+}
+
+h4.infotekst-linje{
+    padding: 0px 0px 10px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #366568;
+    display:inline-block;
+}
+.infoheader{
+    padding: 60px 30px 60px 30px;
+    text-decoration: none;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    background-color:#366568 !important;
+    width: 100%;
+}
+
+.grid scroll {
+    width: 100%;
+    max-width: 1100px;
+	margin-top:0px;
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+.grid1 {
+    width: 85%;
+    /*max-width: 1100px;*/
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+.grid2 {
+    width: 100%;
+    /*max-width: 1100px;*/
+	margin-top:48px;
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+.grid2#kontakt-grid {
+    /*max-width: 1100px;*/
+	margin-top:60px;
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-right:auto;
+	/*background:url(../Bilder/kontaktoss.bilde1.jpg) center no-repeat;*/
+	width: 100%;
+	height: 100%;
+}
+#back-grid{
+	margin-top:40px;
+}
+
+.grid2:before,
+.grid2:after,
+.grid1:before,
+.grid1:after,
+.grid:before,
+.grid:after,
+.row1:before,
+.row2:before,
+.row3:before,
+.row:before,
+.row:after {
+    content: " ";
+    display: table;
+}
+.row1:after {
+    content: " ";
+    display: table;
+}
+.row2:after {
+    content: " ";
+    display: table;
+}
+.row3:after {
+    content: " ";
+    display: table;
+}
+
+.grid2:after
+.grid1:after,
+.grid:after,
+.row:after {clear: both;}
+.row1:after {clear: both;}
+.row2:after {clear: both;}
+.row3:after {clear: both;}
+
+
+[class*='col-']{
+	width: 100%;
+    float: left;
+    min-height: 1px;
+}
+
+
+[class*='col1-']{
+	width: 100%;
+    float: left;
+    min-height: 1px;
+}
+[class*='col2-']{
+	width: 100%;
+    float: left;
+    min-height: 1px;
+}
+
+[class*='col3-']{
+	width: 100%;
+    float: left;
+    min-height: 1px;
+}
+[class*='col4-']{
+	width: 100%;
+    float: left;
+    min-height: 1px;
+}
+[class*='col5-']{
+	width: 100%;
+    float: left;
+    min-height: 1px;
+}
+.col#side{
+	margin-right: 0px;
+    margin-top: 49px;
+    margin-left: 200px;
+    margin-bottom: 0px;
+	padding:0px;
+}
+.col#side-right{
+	margin:0px;
+	padding:0px;
+	margin-top: 49px;
+}
+.col#header {
+    padding: 1em;
+    margin: 1px;
+	margin-top: 80px;
+    /*background:#fff;*/
+    border-radius: 3px;
+    /*box-shadow: 2px 3px 2px 2px rgba(0,0,0,.3);*/
+    /*color:#000;*/
+    text-align: left;
+}
+.col {
+    padding: 1em;
+    margin: 1em;
+    /*background:#fff;*/
+    border-radius: 3px;
+    /*box-shadow: 2px 3px 2px 2px rgba(0,0,0,.3);*/
+    /*color:#000;*/
+    text-align: left;
+}
+
+.slider{
+	margin:0px;
+	padding: 0px;
+}
+
+.col2 {
+	padding-left: 0em;
+	padding-right: 10em;
+	padding-bottom: 1em;
+	padding-top: 0em;
+    margin-left: 50%;
+    background: white;
+    border-radius: 3px;
+    /*box-shadow: 1px 1px 1px 1px rgba(0,0,0,.3);*/
+    color:#75757e;
+    text-align:center;
+}
+
+.col3 {
+	padding-left: 20em;
+	padding-right: 10em;
+	padding-bottom: 1em;
+	padding-top: 0em;
+    /*margin: 1em;*/
+    border-radius: 3px;
+    /*box-shadow: 1px 1px 1px 1px rgba(0,0,0,.3);*/
+    color:#75757e;
+    text-align:left;
+}
+.col3#kontakt {
+    margin: 1px;
+    border-radius: 0px;
+    /*box-shadow: 1px 1px 1px 1px rgba(0,0,0,.3);*/
+    color:#75757e;
+    text-align:left;
+	background-color: transparent;
+}
+.col3#kontakt-info {
+    margin: 1px;
+    border-radius: 0px;
+    /*box-shadow: 1px 1px 1px 1px rgba(0,0,0,.3);*/
+    color:#75757e;
+    text-align:left;
+	background-color: transparent;
+}
+
+.col1 {
+    padding: 1em;
+    margin: 0px;
+    background: #fff;
+    border-radius: 0px;
+    /*box-shadow: 1px 1px 1px rgba(0,0,0,.3);*/
+    color:white;
+    text-align: center;
+}
+
+.col4 {
+    /*padding: 1em;
+    /*margin:2em 1em;*/
+	padding-bottom: 2em;
+    background: #fff;
+    border-radius: 0px;
+    /*box-shadow: 1px 1px 1px rgba(0,0,0,.3);*/
+    text-align: left;
+}
+
+.col4.absolutecenter {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.col4:hover .overlay {
+	/*background-color:#DCDCDC;*/
+	cursor: pointer;
+}
+.col4#img:hover {
+	opacity: 0.60;
+}
+.col5 {
+    padding: 5em;
+    margin: 0px;
+    background: #cccccc;
+    border-radius: 0px;
+    /*box-shadow: 1px 1px 1px rgba(0,0,0,.3);*/
+    color:black;
+    text-align: center;
+	background-image:url(../images/technology-forsidebilde.jpg);
+}
+
+
+textarea {width: 60%;}
+
+.col4 {padding: 0em;}
+#img1 {max-height:600px; max-width:900px;}
+/*.col3 {padding-left:20%;}*/
+
+/* end CSS for grid */
+
+.mySlides {display:none;}
+
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+p {
+	font-size: 16px;
+}
+
+p.kontaktinfo {
+    font-size: 24px;
+    color:#E9E9E9;
+}
+
+a.kontaktinfo {
+    font-size: 24px;
+    color:#E9E9E9;
+}
+
+h1, h2, h3, h4 {
+	color: #34445B;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+}
+
+h1 {
+	font-size: 30px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h2 {
+	margin-top: 0em;
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;
+}
+
+h3 {
+    font-size:2.3125em;
+	text-align:center;
+	padding-top: 0px;
+	margin:0px;
+	font-family:'Roboto', sans-serif;
+}
+
+h3B {
+	color:#FF6633;
+	font-size:2.3125em;
+	text-align:left;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed",sans-serif, Helvetica, Arial ;
+}
+
+
+/*Søkefunksjon*/
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+@import url(https://raw.github.com/FortAwesome/Font-Awesome/master/docs/assets/css/font-awesome.min.css);
+
+
+@media screen and (min-width:320px){
+.col-wd-1 {width:8.33333%;}
+.col-wd-2 {width:16.66667%;}
+.col-wd-3 {width:25%;}
+.col-wd-4 {width:33.33333%;}
+.col-wd-5 {width:41.66667%;}
+.col-wd-6 {width:50%;}
+.col-wd-7 {width:58.33333%;}
+.col-wd-8 {width:66.66667%;}
+.col-wd-9 {width:75%;}
+.col-wd-10 {width:83.33333%;}
+.col-wd-11 {width:91.66667%;}
+.col-wd-12 {width:100%;}
+.col2 {padding:2em; max-height:600px; margin-left:0px;}
+.col4 {padding:0em;}
+.col3 {padding:1em;}
+#img1 {width:100%; max-height:600px;}
+textarea {width: 100%;}
+
+}
+
+@media screen and (min-width:640px){
+.col-md-1 {width:8.33333%;}
+.col-md-2 {width:16.66667%;}
+.col-md-3 {width:25%;}
+.col-md-4 {width:33.33333%;}
+.col-md-5 {width:41.66667%;}
+.col-md-6 {width:50%;}
+.col-md-7 {width:58.33333%;}
+.col-md-8 {width:66.66667%;}
+.col-md-9 {width:75%;}
+.col-md-10 {width:83.33333%;}
+.col-md-11 {width:91.66667%;}
+.col-md-12 {width:100%;}
+#img1 {width:100%; max-height:300px;}
+.col2 {padding:2em; max-height:300px; margin:0px;}
+.col4 {padding:0em;}
+.col3 {padding:1em;}
+textarea {width: 100%; padding:0px;}
+    
+}
+
+@media screen and (min-width:960px){
+.col-sm-1 {width:8.33333%;}
+.col-sm-2 {width:16.66667%;}
+.col-sm-3 {width:25%;}
+.col-sm-4 {width:33.33333%;}
+.col-sm-5 {width:41.66667%;}
+.col-sm-6 {width:50%;}
+.col-sm-7 {width:58.33333%;}
+.col-sm-8 {width:66.66667%;}
+.col-sm-9 {width:75%;}
+.col-sm-10 {width:83.33333%;}
+.col-sm-11 {width:91.66667%;}
+.col-sm-12 {width:100%;}
+.col2 {
+	padding-left: 10em;
+	padding-right: 10em;
+	padding-bottom: 1em;
+	padding-top: 0em;
+	max-height:800px;
+}
+
+/*.menu {top:0px;*/
+}
+
+
+@media screen and (max-width: 639px){
+
+	.col2 {padding:0 0 0 0; margin-left:opx;}
+	.col3 {padding:0;}
+	.col4 {padding:0em;}
+
+    h1.header-tekst{
+        font-size: 18px;
+		color:#fff;
+    }
+	.row2{
+		padding:0px;
+	}
+	h4.section-tekst {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+    
+    h4.header-tekst{
+        /*display:none;*/
+        font-size: 13px;
+		color:#fff;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1170px) {
+     .grid1 {
+        width:100%;
+    }
+    h1.header-tekst{
+        font-size: 24px;
+    }
+    
+    h4.header-tekst{
+        font-size: 20px;
+    }
+   
+}
+
+@media screen and (max-width: 1200px){
+    header { padding-right:0px;}
+}
+/* Endret */
+.logo {
+    margin: 20px;
+}

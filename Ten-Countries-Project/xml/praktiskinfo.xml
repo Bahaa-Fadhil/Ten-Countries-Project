@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+    Beskrivelse: Egen produsert xml med ekstra informasjon om våre ti utvalgte land.
+        Sist oppdatert: 09.11.2017
+            Utviklet av: Joacim, Steffen, Bahaa og Elias
+                Kontrollert av: Joacim, Steffen, Bahaa og Elias
+
+-->
+<rot>
+<rad>
+    <Country>Sverige</Country>
+    <Language>Svensk</Language>
+    <Goverment>Parlamentarisk demokrati/Konstitusjonelt monarki</Goverment>
+    <Dish>Köttbullar</Dish>
+    <Day>6.juni</Day>
+    <Song>Du gamla, du fria</Song>
+    <Capital>Stockholm</Capital>
+    <Top3>Volvo, IKEA, ABBA</Top3>
+    <FunFact>Nord-Korea skylder Sverige 300 millioner euro etter å ha stjålet 1000 Volvoer fra dem for 40 år siden, 
+    og hver 6. måned sender Sverige dem en påminnelse angående dette.</FunFact>
+  </rad>
+  <rad>
+    <Country>Danmark</Country>
+    <Language>Dansk</Language>
+    <Goverment>Parlamentarisk demokrati/Konstitusjonelt monarki</Goverment>
+    <Dish>Stekt flæsk med persillesaus</Dish>
+    <Day>5.juni</Day>
+    <Song>Der er et yndigt land</Song>
+    <Capital>København</Capital>
+    <Top3>LEGO, H.C.Andersen, Carlsberg</Top3>
+    <FunFact>Danmark betaler en skatt på 150% på alle nye bilkjøp.</FunFact>
+  </rad>
+  <rad>
+    <Country>Island</Country>
+    <Language>Islandsk</Language>
+    <Goverment>Demokratisk republikk</Goverment>
+    <Dish>Hákarl</Dish>
+    <Day>17. juni</Day>
+    <Song>Lofsöngur</Song>
+    <Capital>Reykjavík</Capital>
+    <Top3>Varme kilder(Geysir), Vulkanutbrudd, Björk</Top3>
+    <FunFact>Den siste McDonalds-hamburgeren solgt på Island (fra 2008) råtner i et museum.</FunFact>
+  </rad>
+  <rad>
+    <Country>Japan</Country>
+    <Language>Japansk</Language>
+    <Goverment>Parlamentarisk demokrati/Konstitusjonelt monarki</Goverment>
+    <Dish>Sukiyaki</Dish>
+    <Day>23. desember</Day>
+    <Song>Kimi Ga Yo</Song>
+    <Capital>Tokyo</Capital>
+    <Top3>Sushi, Anime, Teknologi</Top3>
+    <FunFact>75 prosent av japanske kvinner eier en vibrator. Gjennomsnittet i verden er på 47 prosent.</FunFact>
+  </rad>
+  <rad>
+    <Country>Mexico</Country>
+    <Language>Spansk</Language>
+    <Goverment>Føderal republikk</Goverment>
+    <Dish>Mole poblano</Dish>
+    <Day>	16. september</Day>
+    <Song>Mexicanos, al grito de guerra</Song>
+    <Capital>Mexico City</Capital>
+    <Top3>Taco, Alkoholdrikke, Narkotika</Top3>
+    <FunFact>I 2007 ble den meksikanske hæren lei av inkompetansen og korrupsjonen i det lokale politiet i Tijuana og konfiskerte våpene deres og ga dem spretterter.</FunFact>
+  </rad>
+  <rad>
+    <Country>USA</Country>
+    <Language>Amerikansk engelsk</Language>
+    <Goverment>Føderal republikk</Goverment>
+    <Dish>Apple Pie</Dish>
+    <Day>4.Juli</Day>
+    <Song>the Star-Spangled Banner</Song>
+    <Capital>Washington DC</Capital>
+    <Top3>Internett, Wrestling, Disney</Top3>
+    <FunFact>Donald Trump er President i USA.</FunFact>
+  </rad>
+  <rad>
+    <Country>Kina</Country>
+    <Language>Kinesisk</Language>
+    <Goverment>Enhetlig Folkerepublikk</Goverment>
+    <Dish>Gong Pao Chicken</Dish>
+    <Day>1.Oktober</Day>
+    <Song>Den friviliges marsj</Song>
+    <Capital>Beijing</Capital>
+    <Top3>Bruce Lee, Kinamat, Kinesiske muren</Top3>
+    <FunFact>Steinene i den kinesiske muren var laget av ris.</FunFact>
+ </rad>
+ <rad>
+    <Country>Australia</Country>
+    <Language>Engelsk</Language>
+    <Goverment>Føderalt parlamentarisk-demokratisk konstitusjonelt monarki</Goverment>
+    <Dish>Meat Pie</Dish>
+    <Day>1.Januar</Day>
+    <Song>Advance Australia Fair</Song>
+    <Capital>Canberra</Capital>
+    <Top3>Kengru, Alligator, Operahuset i Sydney</Top3>
+    <FunFact>Det er en naturlig rosa sjø i Australia.</FunFact>
+  </rad>
+  <rad>
+    <Country>Thailand</Country>
+    <Language>Thailansk</Language>
+    <Goverment>Konstitusjonelt monarki</Goverment>
+    <Dish>Tom Yung Gong</Dish>
+    <Day>5.desember</Day>
+    <Song>Phleng Chat</Song>
+    <Capital>Bangkok</Capital>
+    <Top3>Muay Thai, Grand Palace, Tailansk massasje</Top3>
+    <FunFact>Det er et buddhist tempel i Thailand som er laget av over 1,5 millioner tomme ølflasker.</FunFact>
+  </rad>
+  <rad>
+    <Country>Marokko</Country>
+    <Language>Berbisk</Language>
+    <Goverment>Konstitusjonelt monarki</Goverment>
+    <Dish>Tagine</Dish>
+    <Day>30.Juli</Day>
+    <Song>Manbit al-ahrah, Masriq al-anwar</Song>
+    <Capital>Rabat</Capital>
+    <Top3>Sterk mat, Keramikk, Klær</Top3>
+    <FunFact>Tradisjonelt er leveren, ikke hjertet, ansett som symbolet på kjærlighet i Marokko.</FunFact>
+  </rad>
+</rot>

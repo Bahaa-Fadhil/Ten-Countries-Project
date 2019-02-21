@@ -1,0 +1,1 @@
+Prøv gjerne å slett merged.xml for å se om filen genereres når du kjører hjem.php.
